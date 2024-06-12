@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #DC7100;
+    --fontetítulo: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor01);
+    text-align: center;
+    padding-top: 50px;
+    height: 25vh;
+}
+
+header > h1{
+    font-size: 3.5em;
+    font-family: var(--fontetítulo)
+}
+
+header > p{
+    font-size: 20px;
+}
+
+nav{
+    text-align: left;
+    margin-top: 45px;
+}
+
+nav > a{
+    font-family: var(--fontetítulo);
+    margin: 0px 20px 0px 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: #6e655d80;
+    padding: 10px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+main{
+    border: 3px solid black;
+    margin: auto;
+    max-width: 1200px;
+    height: 75vh;
+}
+
+main section{
+    border: 3px solid black;
+    margin: 10px;
+    height: 150px;
+}
+
+main section h2{
+    display: inline-block;
+}
+
+
+
