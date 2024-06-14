@@ -6,8 +6,10 @@
 }
 
 :root{
-    --cor01: #DC7100;
+    /*--cor01: #DC7100;*/
+    --cor01: rgb(136, 0, 0);
     --fontetítulo: Arial, Helvetica, sans-serif;
+    --fontetexto: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -25,6 +27,7 @@ header > h1{
     font-size: 3.5em;
     font-family: var(--fontetítulo);
     text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.747);
+    font-variant: small-caps;
 }
 
 header > p{
@@ -68,6 +71,7 @@ main section{
     height: 230px;
     width: 199px;
     text-align: center;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.459);
 }
 
 main section h2{
@@ -75,21 +79,58 @@ main section h2{
     font-size: 1.2em;
 }
 
+.artigo{
+    font-size: 4em;
+    font-family: var(--fontetítulo);
+}
+
 main section p{
     font-size: 1.3em;
 }
 
+.texto{
+    font-family: var(--fontetexto);
+}
+
 main section a{
-    color: black;
+    color: darkblue;
     text-decoration: none;
 }
 
 main section:hover{
     margin: 30px;
     transition-duration: 1s;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.459);
+}
+
+aside.video{
+    background-color: black;
+    position: absolute;
+    margin: 40px 0px 0px 425px;
+    padding: 0px 0px 0px 0px;
+}
+
+aside.video > video{
+    position: relative;
+    left: 0%;
+    right: 5%;
+    width: 25vw;
+    height: 65vh;
 }
 
 footer{
     background-color: var(--cor01);
     margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(207, 207, 207);
+}
+
+footer  a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
