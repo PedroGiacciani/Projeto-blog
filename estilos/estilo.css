@@ -120,9 +120,16 @@ img#pedro{
 aside.video{
     margin: 0px 0px 30px -20px;
     padding: 20px;
-    padding-right: 0px;
     padding-bottom: 46%;
     position: relative;
+}
+
+aside.video > iframe{
+    position: absolute;
+    top: 2%;
+    left: 23%;
+    width: 56%;
+    height: 63%;
 }
 
 aside.video > video{
