@@ -106,15 +106,12 @@ main section:hover{
 
 img.imagem{
     margin: 5px 3px 1px 0px;
+    width: 450px;
 }
 
 img#maisalta.imagem{
-    max-width: 180px;
+    max-width: 160px;
     min-width: 50px;
-}
-
-img#pedro{
-    margin: 20px 300px 0px 0px;
 }
 
 aside.video{
