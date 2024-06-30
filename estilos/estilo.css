@@ -9,8 +9,8 @@
 :root{
     /*--cor01: #DC7100;*/
     --cor01: rgb(136, 0, 0);
-    --fontetítulo: Arial, Helvetica, sans-serif;
-    --fontetexto: Roboto, Geneva, Tahoma, sans-serif;
+    --fontetítulo: roboto, Arial, Helvetica, sans-serif;
+    --fontetexto: roboto, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -22,7 +22,7 @@ header{
     background-color: var(--cor01);
     text-align: center;
     padding-top: 50px;
-    height: 25vh;
+    height: 26vh;
 }
 
 header > h1{
