@@ -89,6 +89,7 @@ main section h2{
 
 main section p{
     font-size: 1.3em;
+    font-family: var(--fontetexto);
 }
 
 .texto{
