@@ -14,12 +14,12 @@
 }
 
 body{
-    background-image: url('../mídia/ceuestrelado.jpg');
+    background-color: rgb(184, 184, 184);
     
 }
 
 header{
-    background-image: url('../mídia/starwarsposter.jpg');
+    background-color: var(--cor01);
     text-align: center;
     padding-top: 50px;
     height: 26vh;
@@ -30,39 +30,36 @@ header > h1{
     font-family: var(--fontetítulo);
     text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.747);
     font-variant: small-caps;
-    background-color: rgba(0, 0, 0, 0.61);
-    color: darkred;
 }
 
 header > p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.747);
-    background-color: rgba(0, 0, 0, 0.61);
-    color: darkred;
 }
 
 nav{
     text-align: left;
     margin-top: 45px;
-    background-color: rgba(0, 0, 0, 0.61);
 }
 
 nav > a{
     font-family: var(--fontetítulo);
     margin: 0px 20px 0px 10px;
-    color: darkred;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav > a:hover{
-    color: red;
-    text-decoration: underline;
+    background-color: #6e655d80;
+    padding: 10px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
 }
 
 main{
-    background-color: rgb(172, 172, 172);
+    background-color: white;
     box-shadow: 3px 0px 6px black;
     margin: auto;
     padding: 10px;
@@ -149,7 +146,7 @@ aside.video > video{
 }
 
 footer{
-    background-color: blue;
+    background-color: var(--cor01);
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
