@@ -117,12 +117,11 @@ h2.artigo{
 
 img.imagem{
     margin: 5px 3px 1px 0px;
-    width: 450px;
+    width: 50%;
 }
 
 img#maisalta.imagem{
-    max-width: 160px;
-    min-width: 50px;
+   width: 18%;
 }
 
 aside.video{
