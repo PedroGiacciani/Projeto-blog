@@ -78,9 +78,14 @@ main section{
     background-color: white;
     display: inline-block;
     margin: 10px;
+    width: 31%;
     border: 3px solid black;
     text-align: center;
     box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.459);
+}
+
+main section img{
+    width: 100%;
 }
 
 main section h2{
