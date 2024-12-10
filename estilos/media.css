@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 769px){
+    aside.video > iframe{
+        width: 85%;
+        height: 100%;
+        left: 12%;
+    }
+}
